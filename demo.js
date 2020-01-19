@@ -1,4 +1,4 @@
-// We use this code, known as Objects, to control toggling like / unlike status
+// We use this code, known as Objects, to control toggling like //unlike status
 
 let glyphStates = {
   "♡": "♥",
@@ -14,7 +14,7 @@ let colorStates = {
 // Without JavaScript, clicking on these heart shapes does nothing. Uncomment
 // this code and refresh the demo page.
 
-// let articleHearts = document.querySelectorAll(".like");
+let articleHearts = document.querySelectorAll(".like");
 
 function likeCallback(e) {
   let heart = e.target;
